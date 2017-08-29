@@ -1,4 +1,4 @@
-package src;
+package automobile;
 
 public class BMW extends Cars {
 
@@ -8,7 +8,13 @@ public class BMW extends Cars {
 
 	@Override
 	public void increaseSpeed() {
+		//protectedSpeed is available to subclass of Cars class
+		//and same package
+		// can use protectedSpeed straight without reference 
+		protectedSpeed++;
 		
+		Cars c1 = new Cars();
+		c1.decreaseSpeed();
 		System.out.println("Increase speed of BMW");
 	}
 	
