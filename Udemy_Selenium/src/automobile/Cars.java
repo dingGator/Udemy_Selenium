@@ -16,11 +16,12 @@ int speedLimit =100;
 public Cars() {
 	this(0);
 }
-public void setPrivateSpeed(int pSpeed) {
-	privateSpeed = pSpeed;
-}
+
 public Cars(int startSpeed) {
-	speed =startSpeed;
+	this.privateSpeed =startSpeed;
+}
+public void setPrivateSpeed(int pSpeed) {
+	this.privateSpeed = pSpeed;
 }
 public void increaseSpeed() {
 	if(speed<100) {
