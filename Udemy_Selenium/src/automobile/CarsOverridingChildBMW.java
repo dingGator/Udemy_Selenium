@@ -36,5 +36,8 @@ public class CarsOverridingChildBMW  extends CarsOverridingParent{
 		super.engineStart(10);
 		System.out.println("engineStart:  I am from the child class: " + cyl);
 	}
+	public static void staticExample() {
+		System.out.println("I am the static method from the child class");
+	}
 
 }
