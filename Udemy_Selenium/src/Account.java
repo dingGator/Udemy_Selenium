@@ -6,7 +6,7 @@ public class Account {
 		String user ="abc";
 		String password = "code";
 		Connection conn = null;
-		conn = DriverManager.getConnection(url, user, password);
+		//conn = DriverManager.getConnection(url, user, password);
 				return conn;
 	}
 	
