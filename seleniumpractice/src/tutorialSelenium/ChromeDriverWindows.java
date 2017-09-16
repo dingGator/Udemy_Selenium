@@ -11,6 +11,7 @@ public class ChromeDriverWindows {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\Ki\\Documents\\GitHub\\Udemy_Selenium\\seleniumpractice\\src\\tutorialSelenium\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get(baseURL);
+		//driver.findElement(By.id(""))
 	}
 
 }
